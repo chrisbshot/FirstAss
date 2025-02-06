@@ -1,0 +1,101 @@
+.bio-container{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    background-color: #ffffff;
+}
+.bio-card {
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2); 
+    padding: 0px; 
+    border-radius: px;
+    width: 550px;
+    height: 700px;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    background-color: rgb(218, 207, 186);
+    top: 105px;
+    left: 50%; 
+    transform: translateX(-50%);
+    font-size: 20px;
+    border-left: 70px solid #000000; 
+}
+
+.bio-card::before {
+    content: "";
+    position: absolute;
+    left: -30px; 
+    top: 50%; 
+    width: 2px; 
+    height: 450px; 
+    background-color: #ffffff;
+    transform: translateY(-50%);
+}
+.bio-card::after {
+    content: "";
+    position: absolute;
+    left: -34px; 
+    top: 53px;
+    width: 10px;
+    height: 10px;
+    background-color: #ffffff;
+    border-radius: 50%; 
+}
+
+#Name{
+    position: absolute;
+    left: 20px;
+    bottom: 520px;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+}
+#Bio{
+    position: absolute;
+    left: 20px;
+    bottom: 360px;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+#Course{
+    position: absolute;
+    left: 20px;
+    bottom: 230px;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+}
+#Coursehuh{
+    position: absolute;
+    left: 20px;
+    bottom: 60px;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+#Name-t{
+    position: absolute;
+    left: 20px;
+    bottom: 590px;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+}
+#Bio-t{
+    position: absolute;
+    left: 20px;
+    bottom: 450px;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+}
+#Course-t{
+    position: absolute;
+    left: 20px;
+    bottom: 300px;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+}
+#Coursehuh-t{
+    position: absolute;
+    left: 20px;
+    bottom: 180px;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+}
